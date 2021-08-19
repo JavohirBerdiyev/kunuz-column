@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.big-news-img {
+  height: 346px;
+}
+
+.small-news-img {
+  height: 112px;
+}
+
+.category-img {
+  height: 203px;
+}
+
+.category-item {
+  padding: 10px;
+}
